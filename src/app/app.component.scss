@@ -1,0 +1,19 @@
+*{
+    font-family: sans-serif;
+}
+.banner{
+    text-align: center;
+    width: 45%;
+    margin: 5% auto;
+    // display: flex;
+    // flex-direction: column;
+
+    p{
+        color: #979797;
+    }
+    button{
+        background-color: white;
+        padding: 8px 25px;
+        cursor: pointer;
+    }
+}

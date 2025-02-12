@@ -1,0 +1,24 @@
+.top-menu {
+    // background-color: #7f7979;
+    // color: white;
+    display: flex;
+    padding: 5px;
+    list-style: none;
+    border-bottom: 1px solid;
+
+    li {
+        padding: 5px;
+        cursor: pointer;
+
+        &:first-child{
+            font-weight: 600;
+        }
+        
+        &.active {
+            background-color: #333;
+
+        }
+    }
+    
+}
+
